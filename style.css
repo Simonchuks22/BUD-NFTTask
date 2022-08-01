@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(216, 50%, 16%);
+}
+.card{
+    display: block;
+    background-color: hsl(217, 54%, 11%);
+    width: 354px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+    color: hsl(215, 51%, 70%);
+
+}
+#EQU-img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.card-contents{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#heading{
+    color: white;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+    
+}
+.price, .time{
+    display: flex;
+    align-items: center;
+
+    
+}
+#ETH-img, #CLK-img{
+    width: 14px;
+    height: 18px;
+
+}
+#OWNERNAME{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#OWNER{
+    color: white;
+}
+#ETH-img, #CLK-img, #OWNERNAME{
+    margin-right: 18px;
+}
+
+.footer{
+    display: flex;
+}
